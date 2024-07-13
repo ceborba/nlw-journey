@@ -3,5 +3,8 @@
         "**/*.pyc": {"when": "$(basename).py"},
         "**/__pycache__": true,
         "**/*.pytest_cache": true,
+        "**/.dbeaver/.data-sources.json.bak": true,
+        "**/.dbeaver/data-sources.json": true,
+        "**/.deaver": true
     }
 }
