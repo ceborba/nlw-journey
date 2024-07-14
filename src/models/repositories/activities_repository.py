@@ -5,7 +5,7 @@ class ActivitiesRepository:
     def __init__(self, conn: Connection) -> None:
         self.__conn = conn
 
-    def registry_activities(self, activity_infos: Dict) -> None:
+    def registry_activity(self, activity_infos: Dict) -> None:
         cursor = self.__conn.cursor()
         cursor.execute(
             '''
